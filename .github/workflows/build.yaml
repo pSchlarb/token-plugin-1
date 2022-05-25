@@ -12,6 +12,8 @@ on:
       - gha-ubuntu-20.04
       - ubuntu-20.04
       - ubuntu-20.04-upgrade
+  workflow_dispatch:
+
 jobs:
   workflow-setup:
     runs-on: ubuntu-latest
