@@ -6,12 +6,14 @@ on:
       - gha-ubuntu-20.04
       - ubuntu-20.04
       - ubuntu-20.04-upgrade
+      - Devcontainers
   pull_request:
     branches:
       - master
       - gha-ubuntu-20.04
       - ubuntu-20.04
       - ubuntu-20.04-upgrade
+      - Devcontainers
   workflow_dispatch:
 
 
