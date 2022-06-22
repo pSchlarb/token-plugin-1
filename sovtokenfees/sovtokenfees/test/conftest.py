@@ -398,7 +398,7 @@ def send_and_check_nym(
 
 # TODO old fixtures for backward compartibility
 @pytest.fixture
-def xfer_addresses(addresses):  # noqa: F812
+def xfer_addresses(addresses):  # noqa: F811
     return addresses[:2]
 
 
