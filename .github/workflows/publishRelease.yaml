@@ -92,7 +92,7 @@ jobs:
 
   publish-package:
     name: Token Plugin Publish Packages
-    needs: [release-infos, build-package]
+    needs: [release-infos, createRelease]
     uses: ./.github/workflows/reuseable_publish.yaml
     with:
       GITHUB_REPOSITORY_NAME: ${{ needs.release-infos.outputs.GITHUB_REPOSITORY_NAME }}
